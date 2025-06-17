@@ -1,4 +1,6 @@
-# Project Name Here
+# Smart Walking Stick
+This project is a smart walking stick to aid the visually impaired, using Arduino. It can assist them with walking alone in new environments by giving live signals if the person is close to an obstacle. This is done by taking inputs through an obstacle sensor (in this case an ultrasonic sensor) and providing feedback to the person through haptics (here a vibration motor is used). 
+
 Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
 You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
@@ -9,7 +11,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+| Dia I | Bret Harte Middle School | Mechanical Engineering | Rising 8th Grader
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
