@@ -3,12 +3,6 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 
 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
-
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
 | Dia I | Bret Harte Middle School | Mechanical Engineering | Rising 8th Grader
@@ -17,9 +11,10 @@ You should comment out all portions of your portfolio that you have not complete
 
 ![Headstone Image](logo.svg)
   
-# Final Milestone
+<!---
+#Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -41,7 +36,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+- What needs to be completed before your final milestone -->
 
 # Starter Milestone
 
@@ -52,9 +47,11 @@ For your second milestone, explain what you've worked on since your previous mil
 
 DESCRIPTION: My starter project was a device called the RGB Slider, where I could control the color of an LED light with 3 sliders, as shown above. Each slider manipulates the intentsity of the 3 primary colors in the LED light: red, green, and blue. By adjusting different amounts of power that goes to each LED light color, a wide range of colors were produced. My power source came from my computer. 
 
-CHALLENGES: A challenge I faced was soldering the components onto the board. I was fairly new to soldering at the time, so I made some mistakes, such as soldering too less, or joining two parts that weren't ment to be together. To fix this, I had to de-solder, which was a pretty challenging process. However, this project really helped me get comfortable with soldering. Since the starter project is complete the next step is to start on my intensive project.
+CHALLENGES: A challenge I faced was soldering the components onto the board. I was fairly new to soldering at the time, so I made some mistakes, such as soldering too less, or joining two parts that weren't ment to be together. To fix this, I had to de-solder, which was a pretty challenging process. However, this project really helped me get comfortable with soldering. 
 
-# Schematics 
+NEXT STEPS: Since the starter project is complete the next step is to start on my intensive project.
+
+<!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
@@ -89,4 +86,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.
+To watch the BSE tutorial on how to create a portfolio, click here.-->
