@@ -47,7 +47,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=NS1_Kgo3bcE&list=PLe-u_DjFx7eui8dmPGji-0-slT8KydYv_&index=13" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NS1_Kgo3bcE?si=AC-kKYHpRvg2FyuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 My starter project was a device called the RGB Slider, where I could control the color of an LED light with 3 sliders, as shown above. Each slider manipulates the intentsity of the 3 primary colors in the LED light: red, green, and blue. By adjusting different amounts of power that goes to each LED light color, a wide range of colors is produced. My power source came from my computer. A challenge I faced was soldering the components onto the board. I was fairly new to soldering at the time, so I made mistakes and had to de-solder, which was a pretty challenging process. Since the starter project is complete the next step is to start on my intensive project.
