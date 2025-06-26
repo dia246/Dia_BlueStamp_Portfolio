@@ -35,12 +35,12 @@ For your final milestone, explain the outcome of your project. Key details to in
 ## DESCRIPTION:
 For my first milestone, I put together the circuit board needed for my intensive project, and got some simple distance measurement readings from the ultraonic sensor. Then, using these readings I was able to write a program to start a vibration motor and piezzo buzzer when the ultrasonic sensor detected comething a certain distance away. I used a threshold value of 25 cm for the sensor. In my program, the ultrasonic sensor's trig pin emmits a high frequency sound wave, which bounces off an object and is recieved by the echo pin. The duration that it took for this sound wave to bounce back is measured, and used to calculate the distance of the object.  Using a threshold of 25 cm means that as soon as  the ultrasonic sensor detects that an object or obstacle is a distance of 25 cm away or closer, the vibration motor wil vibrate instensly and the buzzer will emmit a beeping sound. This serves as a warning that an object or obstacle is near. Components I used were:
 
-    - An Arduino UNO - runs the program and contains the pins which connect my components
-    - Ultrasonic sensor - this measures distances/how far away objects are
-    - Vibration motor - vibrates when object is detected
-    - Buzzer - Make a long beeping noise when object is detected
-    - Breadboards - these allowed me to indirectly connect components to the Arduino, without soldering
-    - Jumper wires - connects the circuit
+    - An Arduino UNO: runs the program and contains the pins which connect my components
+    - Ultrasonic sensor: this measures distances/how far away objects are
+    - Vibration motor: vibrates when object is detected
+    - Buzzer: Makes a long beeping noise when object is detected
+    - Breadboards: these allowed me to indirectly connect components to the Arduino, without soldering
+    - Jumper wires: connects the circuit
 
 ## CHALLENGES:
 I faced some challeges along the way to my first milestone. This included some incorrect wiring, and defining components to the wrong pins in my Arduino IDE program. It therefore resulted in my code not working at first. Additionally, at the beginning I didn't understand how to write some statements in the program, but I was able to learn by watching some tutorials.
@@ -71,6 +71,7 @@ A challenge I faced was soldering the components onto the board. I was fairly ne
 Since the starter project is complete the next step is to start on my intensive project.
 
 <!---# Schematics 
+
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
