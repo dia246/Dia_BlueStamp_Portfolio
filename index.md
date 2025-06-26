@@ -34,6 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 ## DESCRIPTION:
 For my first milestone, I put together the circuit board needed for my intensive project, and got some simple distance measurement readings from the ultraonic sensor. Then, using these readings I was able to write a program to start a vibration motor and piezzo buzzer when the ultrasonic sensor detected comething a certain distance away. I used a threshold value of 25 cm for the sensor. In my program, the ultrasonic sensor's trig pin emmits a high frequency sound wave, which bounces off an object and is recieved by the echo pin. The duration that it took for this sound wave to bounce back is measured, and used to calculate the distance of the object.  Using a threshold of 25 cm means that as soon as  the ultrasonic sensor detects that an object or obstacle is a distance of 25 cm away or closer, the vibration motor wil vibrate instensly and the buzzer will emmit a beeping sound. This serves as a warning that an object or obstacle is near. Components I used were:
+
     - An Arduino UNO - runs the program and contains the pins which connect my components
     - Ultrasonic sensor - this measures distances/how far away objects are
     - Vibration motor - vibrates when object is detected
