@@ -7,7 +7,7 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 |:--:|:--:|:--:|:--:|
 | Dia I | Bret Harte Middle School | Mechanical Engineering | Rising 8th Grader
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
   
@@ -22,17 +22,32 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What you hope to learn in the future after everything you've learned at BSE -->
 
 
 
-# Second Milestone
+# First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
+## DESCRIPTION:
+For my first milestone, I put together the circuit board needed for my intensive project, and got some simple distance measurement readings from the ultraonic sensor. Then, using these readings I was able to write a program to start a vibration motor and piezzo buzzer when the ultrasonic sensor detected comething a certain distance away. I used a threshold value of 25 cm for the sensor. In my program, the ultrasonic sensor's trig pin emmits a high frequency sound wave, which bounces off an object and is recieved by the echo pin. The duration that it took for this sound wave to bounce back is measured, and used to calculate the distance of the object.  Using a threshold of 25 cm means that as soon as  the ultrasonic sensor detects that an object or obstacle is a distance of 25 cm away or closer, the vibration motor wil vibrate instensly and the buzzer will emmit a beeping sound. This serves as a warning that an object or obstacle is near. Components I used were:
+    - An Arduino UNO - runs the program and contains the pins which connect my components
+    - Ultrasonic sensor - this measures distances/how far away objects are
+    - Vibration motor - vibrates when object is detected
+    - Buzzer - Make a long beeping noise when object is detected
+    - Breadboards - these allowed me to indirectly connect components to the Arduino, without soldering
+    - Jumper wires - connects the circuit
+
+## CHALLENGES:
+I faced some challeges along the way to my first milestone. This included some incorrect wiring, and defining components to the wrong pins in my Arduino IDE program. It therefore resulted in my code not working at first. Additionally, at the beginning I didn't understand how to write some statements in the program, but I was able to learn by watching some tutorials.
+
+## NEXT STEPS:
+My next steps will be to work on adding some modifications to this project.
+
+<!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
@@ -45,11 +60,14 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NS1_Kgo3bcE?si=AC-kKYHpRvg2FyuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-DESCRIPTION: My starter project was a device called the RGB Slider, where I could control the color of an LED light with 3 sliders, as shown above. Each slider manipulates the intentsity of the 3 primary colors in the LED light: red, green, and blue. By adjusting different amounts of power that goes to each LED light color, a wide range of colors were produced. My power source came from my computer. 
+## DESCRIPTION:
+My starter project was a device called the RGB Slider, where I could control the color of an LED light with 3 sliders, as shown above. Each slider manipulates the intentsity of the 3 primary colors in the LED light: red, green, and blue. By adjusting different amounts of power that goes to each LED light color, a wide range of colors were produced. My power source came from my computer. 
 
-CHALLENGES: A challenge I faced was soldering the components onto the board. I was fairly new to soldering at the time, so I made some mistakes, such as soldering too less, or joining two parts that weren't ment to be together. To fix this, I had to de-solder, which was a pretty challenging process. However, this project really helped me get comfortable with soldering. 
+## CHALLENGES: 
+A challenge I faced was soldering the components onto the board. I was fairly new to soldering at the time, so I made some mistakes, such as soldering too less, or joining two parts that weren't ment to be together. To fix this, I had to de-solder, which was a pretty challenging process. However, this project really helped me get comfortable with soldering. 
 
-NEXT STEPS: Since the starter project is complete the next step is to start on my intensive project.
+## NEXT STEPS: 
+Since the starter project is complete the next step is to start on my intensive project.
 
 <!---# Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
