@@ -70,7 +70,7 @@ A challenge I faced was soldering the components onto the board. I was fairly ne
 ## NEXT STEPS: 
 Since the starter project is complete the next step is to start on my intensive project.
 
-<!---# Schematics 
+# Schematics 
 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
