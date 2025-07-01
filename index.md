@@ -31,13 +31,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
 ## DESCRIPTION
-My second milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 so that it can be attactched onto the walking stick.
+My second milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees, so that it can be attactched onto the walking stick.
 
 ## CHALLENGES
 I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
 
 ## NEXT STEPS
-My next steps will be adding modifactions to my project, such as potentiall adding an on-off switch for the user to manually turn off the buzzer and vibration motor's warnings.
+My next steps will be adding modifications to my project, such as potentially adding an on-off switch for the user to manually turn off the buzzer and vibration motor's warnings.
 
 
 # First Milestone
@@ -111,9 +111,12 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino UNO | The microcontroller, it processes the code and "controls" the components | $8.99 | <a href="https://www.amazon.com/ATmega328P-Arduino-Compatible-Arduino-Voltage-Compatible/dp/B0D83J2TJJ/ref=asc_df_B0D83J2TJJ?mcid=3d23347be66e346686550d8bb2e1840b&hvocijid=10552592446633827907-B0D83J2TJJ-&hvexpln=73&tag=hyprod-20&linkCode=df0&hvadid=721245378154&hvpos=&hvnetw=g&hvrand=10552592446633827907&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032171&hvtargid=pla-2281435178338&th=1"> Link </a> |
+| Ultrasonic Sensor | Senses objects and obstacles, how far away they are, using soundwaves | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Vibration Motor | contains a small motor that vibrates or shakes when an object is close by | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Buzzer | Converts electric signals into a buzzing sound, alerts the user to a nearby object | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Jumper Wires | Connects all these components to eachother and to the Arduino | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Walking Stick | The circuit board is mounted on this | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
@@ -121,4 +124,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here.-->
+<!---To watch the BSE tutorial on how to create a portfolio, click here.-->
