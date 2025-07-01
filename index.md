@@ -24,13 +24,27 @@ For your final milestone, explain the outcome of your project. Key details to in
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE -->
 
+# Second Milestone
+
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
+
+## DESCRIPTION
+My second milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 so that it can be attactched onto the walking stick.
+
+## CHALLENGES
+I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
+
+## NEXT STEPS
+My next steps will be adding modifactions to my project, such as potentiall adding an on-off switch for the user to manually turn off the buzzer and vibration motor's warnings.
 
 
 # First Milestone
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LAWkWSDc7j0?si=nBxFlckE_LIzSlkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## DESCRIPTION:
 For my first milestone, I put together the circuit board needed for my intensive project, and got some simple distance measurement readings from the ultraonic sensor. Then, using these readings I was able to write a program to start a vibration motor and piezzo buzzer when the ultrasonic sensor detected comething a certain distance away. I used a threshold value of 25 cm for the sensor. In my program, the ultrasonic sensor's trig pin emmits a high frequency sound wave, which bounces off an object and is recieved by the echo pin. The duration that it took for this sound wave to bounce back is measured, and used to calculate the distance of the object.  Using a threshold of 25 cm means that as soon as  the ultrasonic sensor detects that an object or obstacle is a distance of 25 cm away or closer, the vibration motor wil vibrate instensly and the buzzer will emmit a beeping sound. This serves as a warning that an object or obstacle is near. Components I used were:
@@ -46,7 +60,7 @@ For my first milestone, I put together the circuit board needed for my intensive
 I faced some challeges along the way to my first milestone. This included some incorrect wiring, and defining components to the wrong pins in my Arduino IDE program. It therefore resulted in my code not working at first. Additionally, at the beginning I didn't understand how to write some statements in the program, but I was able to learn by watching some tutorials.
 
 ## NEXT STEPS:
-My next steps will be to work on adding some modifications to this project.
+My next steps will be figuring out how to mount my circuit board onto the walking stick itself.
 
 <!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
