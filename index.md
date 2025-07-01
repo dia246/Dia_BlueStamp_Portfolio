@@ -7,7 +7,7 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 |:--:|:--:|:--:|:--:|
 | Dia I | Bret Harte Middle School | Mechanical Engineering | Rising 8th Grader
 
-<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<!---**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**-->
 
 ![Headstone Image](logo.svg)
   
@@ -70,9 +70,9 @@ My next steps will be figuring out how to mount my circuit board onto the walkin
 
 # Starter Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NS1_Kgo3bcE?si=AC-kKYHpRvg2FyuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NS1_Kgo3bcE?si=AC-kKYHpRvg2FyuU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>-->
 
 
 ## DESCRIPTION:
@@ -89,7 +89,7 @@ Since the starter project is complete the next step is to start on my intensive 
 <!--Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. -->
 ![Schematics](schematics.jpg)
 
-# Code
+<!---# Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
@@ -104,6 +104,7 @@ void loop() {
 
 }
 ```
+-->
 
 # Bill of Materials
 <!--- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -119,9 +120,9 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Walking Stick | The circuit board is mounted on this | $15.83| <a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChsSEwj3s7qSz5yOAxVgCK0GHREuL50YACICCAEQEBoCcHY&co=1&gclid=Cj0KCQjwjo7DBhCrARIsACWauSlqaQ97U3FkcXciJW0-Zpfx55h9I09uwZMFTPiQAJgrE_I494NbGmIaAnQPEALw_wcB&ohost=www.google.com&cid=CAESVeD23v8wymqpgAR-qYJxgR_W0P25nlGEKsb8QhnuZ7XZFeYJmO6-_lIjdYzRawwxEPxrJjkXHC_94vgjXJ6wYE4IGLvFkGsDMECXVdeavgNE9H4wsJ8&category=acrcp_v1_41&sig=AOD64_1mt0zJbvqeuy944UgUEvl83Ev3dA&ctype=5&q=&ved=2ahUKEwiL3rSSz5yOAxUoKEQIHfWeO8UQ9aACKAB6BAgKEDU&adurl="> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+<!---One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.-->
+- [Using Fusion 360 to CAD](https://www.youtube.com/watch?v=48NtO82RlbA)
+- [Basics of Arduino IDE programming]([https://sviatil0.github.io/Sviatoslav_BSE/](https://docs.arduino.cc/learn/starting-guide/the-arduino-software-ide/))
+
 
 <!---To watch the BSE tutorial on how to create a portfolio, click here.-->
