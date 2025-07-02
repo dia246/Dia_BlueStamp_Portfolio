@@ -24,7 +24,7 @@ My final milestone for the smart-walking stick project is designing and 3D-print
 !(box-drawing.jpg)                                            !(clip-drawing.jpg)
 
 
-
+!(smart-cane-boxfinal.jpg)                                    !
 
 ## CHALLENGES
 I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
