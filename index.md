@@ -18,6 +18,15 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## DESCRIPTION
+My final milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees, so that it can be attactched onto the walking stick.
+
+## CHALLENGES
+I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
+
+
+
+
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
@@ -31,13 +40,13 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
 ## DESCRIPTION
-My second milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees, so that it can be attactched onto the walking stick.
+My second milestone was adding some modifcations onto the base product of my project. I decided to add 2 modifcations: an on-off switch for the user to be abe to turn the buzzer sound/ vibration motor on and off. Also, I adjusted my program to have the buzzer beep at different frequencies, depending on how far away the ultrasonic sensor detects an object. FOr my on-off switch, I had to connect the two outer pins to ground and 5V, and the middle to any digital pin. The way this works is when the switch is toggles to the "on" side (which is connected to the 5V), the electric signal flows and is picked up by the digital pin. In my program I used a conditional, so when the digital pin reads high electric signals, the ultrasonic sensor, buzzer, and vibration motor carry out their functions. However, when electricty is grounded, the sesnor stops emmiting and recieving signals. Therefore, when the switch is toggled on, the circuit gives warnings when an object is close, but when the switch is off, the warnings stop. My second modification was changing the rate of the buzzer. When the ultrasonic sensor reads an object a distance between 10 and 20 cm, a slow rate of beeping begins, but as soon as the object is less than 10 cm away, the buzzing rate ebecomes faster, slerting the user to a close object.
 
 ## CHALLENGES
-I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
+One challenge I faced was that I ran out of ground and 5V pins, because I had alreay connected the ones on the Arduino board itself. However, I still needed to connect my on-off switch to a ground and 5V pin. I solved this by using a breadboard and connecting the pins I needed to te power rails, which made the whole rail connected to the pins I needed. Another struggle  I had was correctly nesting the ultrasonic sensor conditional inside of the on-off switch conditional in program. 
 
 ## NEXT STEPS
-My next steps will be adding modifications to my project, such as potentially adding an on-off switch for the user to manually turn off the buzzer and vibration motor's warnings.
+My next steps will be figuring out how to mount my circuit board onto the walking stick itself.
 
 
 # First Milestone
@@ -60,7 +69,7 @@ For my first milestone, I put together the circuit board needed for my intensive
 I faced some challeges along the way to my first milestone. This included some incorrect wiring, and defining components to the wrong pins in my Arduino IDE program. It therefore resulted in my code not working at first. Additionally, at the beginning I didn't understand how to write some statements in the program, but I was able to learn by watching some tutorials.
 
 ## NEXT STEPS:
-My next steps will be figuring out how to mount my circuit board onto the walking stick itself.
+My next steps will be adding modifications to my project, such as potentially adding an on-off switch for the user to manually turn off the buzzer and vibration motor's warnings.
 
 <!--- For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
