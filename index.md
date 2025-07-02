@@ -14,9 +14,9 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 
 #Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
+<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>-->
 
 ## DESCRIPTION
 My final milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees, so that it can be attactched onto the walking stick.
@@ -32,10 +32,7 @@ My final milestone for the smart-walking stick project is designing and 3D-print
 ## CHALLENGES
 I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
 
-
-
-
-For your final milestone, explain the outcome of your project. Key details to include are:
+<!---For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
@@ -107,22 +104,76 @@ Since the starter project is complete the next step is to start on my intensive 
 ![Schematics](schematics.jpg)
 
 
-<!---# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
+# Code
+<!---Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+#define trigPin 12 //defining what pins the sensor/motor ports are connected too
+#define echoPin 11
+#define motor 7
+#define buzzer 9
+#define on_switch 2
+long duration; //type of number or measurement
+int distance;
+int switch_state;
+
+void setup() 
+ <!--- // put your setup code here, to run once:-->
+{
+Serial.begin(9600); //speed of data
+pinMode(trigPin, OUTPUT);
+pinMode(echoPin, INPUT);
+pinMode(motor, OUTPUT);
+pinMode(buzzer,OUTPUT);
+pinMode(on_switch, INPUT);
+tone(buzzer, 50);
+}
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
+  <!---// put your main code here, to run repeatedly:-->
+switch_state = digitalRead(on_switch);
+if(switch_state == HIGH) { 
+ digitalWrite(trigPin, LOW); //resets pin to get clean reading
+ delayMicroseconds(2); //wait
+ digitalWrite(trigPin, HIGH); //sends high ultrasonic signal (on)
+ delayMicroseconds(10); //wait
+ digitalWrite(trigPin, LOW);  //stops pulses
 
+
+ duration = pulseIn(echoPin, HIGH); //measures duration of soundwave's roundtrip
+ distance = duration*0.0343 / 2; //sounds travels at speed 0.0343 cm/us
+
+ Serial.print("Distance: "); //printing to serial monitor
+ Serial.print(distance);
+ Serial.println(" :cm");
+ 
+
+ if (distance > 0 && distance <= 10) { // Object is close (e.g., within 20 cm)
+    tone(buzzer, 25); // Beep at a frequency (e.g., 1000 Hz)
+    delay(25);             // Beep duration
+    noTone(buzzer);     // Turn off the buzzer
+    delay(25);
+    digitalWrite(motor, HIGH);           // Short delay for fast beeping
+  } else if (distance > 10 && distance <= 20) { // Medium distance
+    tone(buzzer, 25);
+    delay(150);
+    noTone(buzzer);
+    delay(150); // Longer delay for slower beeping
+    digitalWrite(motor, HIGH);
+  } else { // Object is far or no object detected
+    noTone(buzzer); // Turn off the buzzer
+    digitalWrite(motor, LOW);
+  }
+ delay(500); }//delays, then does it over again
+else {
+digitalWrite(trigPin, LOW);
+digitalWrite(motor, LOW);
+digitalWrite(buzzer, LOW); }
+}
+ 
 }
 ```
--->
 
 # Bill of Materials
 <!--- Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
