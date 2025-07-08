@@ -19,8 +19,7 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## DESCRIPTION
-My final milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 80 mm in height, 60 mm in length, and 33 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees, so that it can be attactched onto the walking stick.
-             
+My final milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 100 mm in height, 80 mm in length, and 45 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees around a circular gap  mm in diameter, so it can fit and be attactched onto the walking stick. Up until this point, my ultrasonic sensor and on-off switch were connected to the arduino via a breadboard. A breadboard is too big, so I had to solder wires onto a PCB, and connect them to the 5V and ground ports. By creating a short, I was able have multiple wires conected to the same port, and then connect my ultrasonic sensor and on-off wsitch to those wires
 ![Alt text](smart-stick-drawing.jpg)
 
 ![Alt text](smart-cane-boxfinal.jpg)
@@ -30,7 +29,11 @@ My final milestone for the smart-walking stick project is designing and 3D-print
 ![Alt text](smart-cane-clipfinal.jpg)
                             
 ## CHALLENGES
-I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. 
+I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. Another big setback I faced was that when I first printed the box, my components didn't all fit inside, despite the fact that I measured everything carefully and even added some extra space. So I had to go back and redesign the box with each dimension around 20 mm larger. 
+
+## OUTCOMES
+
+
 
 <!---For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
