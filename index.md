@@ -12,9 +12,9 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 ![Headstone Image](logo.svg)
   
 
-#Final Milestone
+<!---#Final Milestone
 
-<!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
+**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -57,9 +57,12 @@ One challenge I faced was that I ran out of ground and 5V pins, because I had al
 My next steps will be figuring out how to mount my circuit board onto the walking stick itself.
 
 
-# First Milestone
+
 
 <!---**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**-->
+
+# First Milestone
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LAWkWSDc7j0?si=nBxFlckE_LIzSlkL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
