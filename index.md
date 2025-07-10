@@ -12,11 +12,11 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 ![Headstone Image](logo.svg)
   
 
-<!---#Final Milestone
+<!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** 
+# Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/25u6WiK08mQ?si=PV6mwnzS38AR2reN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## DESCRIPTION
 My final milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 100 mm in height, 80 mm in length, and 45 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees around a circular gap  mm in diameter, so it can fit and be attactched onto the walking stick. Up until this point, my ultrasonic sensor and on-off switch were connected to the arduino via a breadboard. A breadboard is too big, so I had to solder wires onto a PCB, and connect them to the 5V and ground ports. By creating a short, I was able have multiple wires conected to the same port, and then connect my ultrasonic sensor and on-off wsitch to those wires
@@ -32,8 +32,9 @@ My final milestone for the smart-walking stick project is designing and 3D-print
 I faced multiple challenges when I was designing my box. At the beginning, I didn't understand many of the toos and shortcuts on Fusion 360, which led me to designing some parts of my box in an incorrect way. Additionally, my original design of my had the clip and box already attached to one another. However, I found out that this design would be difficult to 3D-print, and had a possibilty of by box collapsing. So, I had to seperate the clip and box, and add a small tab to the clip that I could insert and attatch to the box after they were 3D-printed in two seperate pieces. Another big setback I faced was that when I first printed the box, my components didn't all fit inside, despite the fact that I measured everything carefully and even added some extra space. So I had to go back and redesign the box with each dimension around 20 mm larger. 
 
 ## OUTCOMES
+I learned a lot over the course of the Blue Stamp Engineering program. Going into it, I only knew a little bit of programming, mostly Python and a little bit of C++. However now, by the end of it, I am much more confident in C++, and understand it more. This is the language used in Arduino IDE. Additionally, at the start, I had no idea about many of the mechanical parts, such as the differerence bwtween amle and female wires, and how to 3D-design something in a way that will have a strong structure when it prints.
 
-
+The biggest challenge I faced overall was using Fusion 360 to CAD. It was a long learning process, took a lot of trial and error, and was time consuming to get a design that worked well. Parts kept breaking off, and my first print was too small to fit all my components. After designing and redisgning, I was able to print a a final design that worked. This, and other challenges over the course of the program taught me that one of the most important things is to have a lot of patience when working through a project. Things will not work or often go wrong, so you need to be able to break the problem down into smaller parts, and work though it with patience. 
 
 <!---For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
