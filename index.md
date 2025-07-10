@@ -20,12 +20,17 @@ This project is a smart walking stick to aid the visually impaired, using Arduin
 
 ## DESCRIPTION
 My final milestone for the smart-walking stick project is designing and 3D-printing a box to hold my Adruino circuit board, and attatch it to my walking stick. I used Fusion 360 to CAD this piece. The box needed to include multiple factors: being big enough to hold my components, and allowing the ultrasonic sensor to have a clear view. I also decided that I want the buzzer to be positioned outside, so as to provide a clear sound. Additionally, I want this box to be removable from walking stick, which led me to adding a clip. So I came up with my final design: a box 100 mm in height, 80 mm in length, and 45 mm in width. The top is open so that the circuits can be easily removied. On the box are 3 circlular openings: 2 for the ultrasonic sensor, and one for the buzzer. I added a clip that revolves 270 degrees around a circular gap  mm in diameter, so it can fit and be attactched onto the walking stick. Up until this point, my ultrasonic sensor and on-off switch were connected to the arduino via a breadboard. A breadboard is too big, so I had to solder wires onto a PCB, and connect them to the 5V and ground ports. By creating a short, I was able have multiple wires conected to the same port, and then connect my ultrasonic sensor and on-off wsitch to those wires
+
+2D sketch of the box
 ![Alt text](smart-stick-drawing.jpg)
 
+3D design of box
 ![Alt text](smart-cane-boxfinal.jpg)
 
+2D sketch of clip
 ![Alt text](clip-drawing.jpg)
 
+3D design of clip
 ![Alt text](smart-cane-clipfinal.jpg)
                             
 ## CHALLENGES
